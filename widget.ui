@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1138</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="btn_start">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>490</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: rgb(255, 251, 217);</string>
+   </property>
+   <property name="text">
+    <string>直接执行320条</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_end">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>490</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 135, 135);</string>
+   </property>
+   <property name="text">
+    <string>结束</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_details">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>250</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe 宋体 Std L</family>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#00ff00;&quot;&gt;当前执行的是第               条指令&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_name1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>250</y>
+     <width>31</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>17</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#00ff00;&quot;&gt;虚&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#00ff00;&quot;&gt;拟&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#00ff00;&quot;&gt;页&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#00ff00;&quot;&gt;号&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_name2">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>20</y>
+     <width>41</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#00ff00;&quot;&gt;物&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#00ff00;&quot;&gt;理&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#00ff00;&quot;&gt;页&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#00ff00;&quot;&gt;号&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_rate">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>180</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe 宋体 Std L</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#00ff00;&quot;&gt;缺页率：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>580</y>
+     <width>451</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;说明：&lt;/p&gt;&lt;p&gt;左半边是32页虚拟内存块；右上角是4页物理内存块。&lt;br/&gt;点击“执行320条”程序会运行320条指令,&lt;/p&gt;&lt;p&gt;右边中间的方格内可以看到具体的置换细节。&lt;/p&gt;&lt;p&gt;点击“结束”程序停止运行并退出。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>490</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>执行1条</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>250</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe 宋体 Std L</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; color:#00ff00;&quot;&gt;已经执行了 条指令&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>300</y>
+     <width>511</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(243, 255, 242);</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="table_visual_1">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>70</y>
+     <width>231</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(243, 255, 242);</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="table_visual_2">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>70</y>
+     <width>221</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(243, 255, 242);</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="table_physical">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>10</y>
+     <width>421</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(212, 248, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_fresh">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>490</y>
+     <width>93</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>重置</string>
+   </property>
+  </widget>
+  <zorder>table_physical</zorder>
+  <zorder>table_visual_2</zorder>
+  <zorder>table_visual_1</zorder>
+  <zorder>btn_start</zorder>
+  <zorder>btn_end</zorder>
+  <zorder>label_details</zorder>
+  <zorder>label_name1</zorder>
+  <zorder>label_name2</zorder>
+  <zorder>label_rate</zorder>
+  <zorder>label_2</zorder>
+  <zorder>btn</zorder>
+  <zorder>label</zorder>
+  <zorder>listWidget</zorder>
+  <zorder>btn_fresh</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
